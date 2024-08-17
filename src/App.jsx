@@ -1,12 +1,14 @@
 import { BrowserRouter } from 'react-router-dom';
-
-//import all components
+import React, { useEffect, useRef } from 'react';
+import * as THREE from 'three';
+import Clouds from './Clouds';
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 
 
 
 const App = () => {
-  return (
+  
+  return(
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
