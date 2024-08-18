@@ -1,7 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
 import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
-import Clouds from './Clouds';
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 
 
@@ -26,7 +25,7 @@ const App = () => {
         </div>
       </div>
     </BrowserRouter>
-  )
-}
+  );
+};
 
-export default App
+export default App;
