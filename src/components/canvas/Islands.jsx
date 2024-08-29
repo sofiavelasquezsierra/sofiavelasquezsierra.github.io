@@ -12,7 +12,7 @@ const Islands = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={5} groundColor='#9ac1e6' />
+      <hemisphereLight intensity={3} groundColor='#020c21' />
       <spotLight
         position={[-0, -8, 1]}
         angle={0.12}
@@ -25,9 +25,9 @@ const Islands = ({ isMobile }) => {
       
       <primitive
         object={scene}
-        scale = {isMobile? 0.0045 : 0.008}
-        position = {isMobile?  [-1, -3.5, 0] :[0, -7.5, 0]}
-        rotation = {[-0.01, -0.1, -0.05]}
+        scale = {isMobile? 0.0045 : 0.0095}
+        position = {isMobile?  [-1, -3.5, 0] :[3.5, -3.6, -1.5]}
+        rotation = {[0.08, -0.1, -0.1]}
       />
     </mesh>
   );
@@ -61,7 +61,7 @@ const IslandsCanvas = () => {
     <Canvas
       frameloop='demand'
       shadows
-      camera={{position: [0, 20, 5], fov: 25}}
+      camera={{position: [35, 8, 10], fov: 25, rotation: [-Math.PI / 2, 0, 0]}}
       gl={{ preserveDrawingBuffer: true}}
     >
       <Suspense fallback={<CanvasLoader />}>

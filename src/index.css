@@ -57,10 +57,20 @@
   );
 }
 
+.pink-gradient {
+  background: #e695e6;
+  background: linear-gradient(to top, #f07af0 0%, #f78bf7 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #e695e6 0%,
+    rgba(223, 99, 208, 0) 100%
+  );
+}
+
 .green-pink-gradient {
-  background: "#a9c9b1";
-  background: linear-gradient(90.13deg, #a9c9b1 1.9%, #ed68bc 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #a9c9b1 1.9%, #ed68bc 97.5%);
+  background: "#6ccccc";
+  background: linear-gradient(90.13deg, #6ccccc 1.9%, #e695e6 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #6ccccc 1.9%, #e695e6 97.5%);
 }
 
 .orange-text-gradient {

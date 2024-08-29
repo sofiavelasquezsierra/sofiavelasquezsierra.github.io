@@ -1,11 +1,11 @@
 Model Information:
-* title:	Floating Island
-* source:	https://sketchfab.com/3d-models/floating-island-05041dc9277748c68bb2ff8c7b6bc063
-* author:	Varvara Krauchanka (https://sketchfab.com/krauchankavarvara)
+* title:	Island
+* source:	https://sketchfab.com/3d-models/island-e540ceb3ea5d49b185c898795e68ccb7
+* author:	Michal (https://sketchfab.com/Michal_K)
 
 Model License:
-* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
-* requirements:	Author must be credited. No commercial use.
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Floating Island" (https://sketchfab.com/3d-models/floating-island-05041dc9277748c68bb2ff8c7b6bc063) by Varvara Krauchanka (https://sketchfab.com/krauchankavarvara) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+This work is based on "Island" (https://sketchfab.com/3d-models/island-e540ceb3ea5d49b185c898795e68ccb7) by Michal (https://sketchfab.com/Michal_K) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
