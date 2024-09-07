@@ -22,15 +22,20 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import unix from "./tech/unix.png";
+import c from "./tech/c.png";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
+import bam from "./company/bam.png";
+import bnpparibas from "./company/bnpparibas.png";
+import agilegtm from "./company/agilegtm.png";
+
+import coursechamp from "./coursechamp.png";
+import hotelbooking from "./hotelbooking.png";
+import divesafe from "./divesafe.png";
 
 export {
   logo,
@@ -56,11 +61,14 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  unix,
+  c,
+  java,
+  python,
+  bnpparibas,
+  bam,
+  agilegtm,
+  coursechamp,
+  hotelbooking,
+  divesafe,
 };

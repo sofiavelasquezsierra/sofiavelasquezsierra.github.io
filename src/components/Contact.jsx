@@ -24,37 +24,37 @@ const Contact = () => {
           <p className={styles.sectionSubText}>Get in touch</p>
           <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-          <div className='w-full flex'>
-            <motion.p 
-              variants={slideIn('', '', 0.1, 1)}
-              className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-                <div
-                  onClick={() => window.open('https://www.linkedin.com/in/sofia-velasquez/')}
-                  className='blue rounded-full w-20 h-20 flex justify-center items-center cursor-pointer'>
-                    <img
-                      src={linkedin}
-                      alt="linkedin"
-                      className='object-contain'/>
+        <div className='w-full flex'>
+          <motion.p 
+            variants={slideIn('', '', 0.1, 1)}
+            className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+              <div
+                onClick={() => window.open('https://www.linkedin.com/in/sofia-velasquez/')}
+                className='blue rounded-full w-20 h-20 flex justify-center items-center cursor-pointer'>
+                  <img
+                    src={linkedin}
+                    alt="linkedin"
+                    className='object-contain'/>
 
-                </div>
-                <div
-                  onClick={() => window.open('sofia.velasquezsierra@mail.mcgill.ca')}
-                  className='blue rounded-full w-20 h-20 flex justify-center items-center cursor-pointer'>
-                    <img
-                      src={email}
-                      alt="email"
-                      className='object-contain'/>
+              </div>
+              <div
+                onClick={() => window.open('sofia.velasquezsierra@mail.mcgill.ca')}
+                className='blue rounded-full w-20 h-20 flex justify-center items-center cursor-pointer'>
+                  <img
+                    src={email}
+                    alt="email"
+                    className='object-contain'/>
 
-                </div>
-                <div
-                  onClick={() => window.open('https://github.com/sofiavelasquezsierra')}
-                  className='blue rounded-full w-20 h-20 flex justify-center items-center cursor-pointer'>
-                    <img
-                      src={github}
-                      alt="github"
-                      className='object-contain'/>
+              </div>
+              <div
+                onClick={() => window.open('https://github.com/sofiavelasquezsierra')}
+                className='blue rounded-full w-20 h-20 flex justify-center items-center cursor-pointer'>
+                  <img
+                    src={github}
+                    alt="github"
+                    className='object-contain'/>
 
-                </div>
+              </div>
             </motion.p>
       </div>
 

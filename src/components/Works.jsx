@@ -16,7 +16,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
           max: 15,
           scale: 1,
           speed: 250
-        }} className= "bg-tertiary p-5 rounded-2x1 sm:w-[360px] w-full">
+        }} className= "rgba(213, 216, 247, 0.6) p-5 rounded-2x1 sm:w-[360px] w-full">
           <div className='relative w-full h-[230px]'>
             <img 
               src={image}

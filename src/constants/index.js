@@ -15,13 +15,16 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    c,
+    java,
+    python,
+    unix,
+    bnpparibas,
+    agilegtm,
+    bam,
+    coursechamp,
+    hotelbooking,
+    divesafe,
     threejs,
   } from "../assets";
   
@@ -73,16 +76,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Java",
+      icon: java,
     },
     {
       name: "Tailwind CSS",
@@ -105,68 +104,60 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "unix",
+      icon: unix,
+    },
+    {
+      name: "c",
+      icon: c,
     },
   ];
   
   const experiences = [
     {
-      title: "Developer",
-      company_name: "m",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March  - April 2021",
+      title: "IT Production Security intern",
+      company_name: "BNP Paribas",
+      icon: bnpparibas,
+      iconBg: "#438B61",
+      date: "May  - August 2024",
       points: [
-        "Developing.",
-        "Collaborating.",
-        "Implementing .",
-        "Participating .",
+        "Programmed and deployed a Python-based website using Django to display critical server data, aiding over 200 employees",
+        "Tasked to automate IT Security and Cyber Security processes using SQL and Python and leveraging API tools",
       ],
     },
     {
-      title: "  Developer",
-      company_name: "m",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan - Feb 2022",
+      title: "Co-President",
+      company_name: "Blockchain at McGill",
+      icon: bam,
+      iconBg: "#000000",
+      date: "September 2023 - Present",
       points: [
-        "Developing .",
-        "Collaborating.",
-        "Implementing .",
-        "Participating ",
+        'Organized and co-led the McGill Hackathon Team competing at University of Pennsylvania’s Blockchain Hackathon',
+        'Took the role of front-end developer using React.js and Figma, taking our project up to the final rounds',
+        'Coordinated networking and career-launching events for over 1000 students with firms including Binance, Coinbase, & Axelar while collaborating with Women in Blockchain',
       ],
     },
     {
-      title: "Developer",
-      company_name: "m",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan  - Jan 2023",
+      title: "Investment Analyst Intern",
+      company_name: "AgileGTM",
+      icon: agilegtm,
+      iconBg: "#000000",
+      date: "March - Dec 2023",
       points: [
-        "Developing .",
-        "Collaborating",
-        "Implementing .",
-        "Participating.",
+        'Conducted and analyzed fundraising and investment opportunities, effectively assisted in raising ~$2M in cash',
+        'Engineered and streamlined Web3 Accelerator fund investor pipeline process using PowerBI',
+        'Organized educational and career-launching events with universities in Portugal resulting in an internal company hire'
       ],
     },
-    {
-      title: "Developer",
-      company_name: "m",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan - Present",
-      points: [
-        "dev.",
-        "Collaborating.",
-        "Implementing.",
-        "Participating .",
-      ],
-    },
+   
   ];
   
   const testimonials = [
@@ -198,67 +189,67 @@ import {
   
   const projects = [
     {
-      name: "name",
+      name: "Course Champ Web App",
       description:
-        " desc",
+        "Scalable bilingual course rating platform using Agile methodologies, Java, RESTful web services, Spring Boot, and Vue.js, enabling students to review and rate courses. Focused on a Test-Driven Development approach, creating service tests with Spring Boot and Mockito to ensure proper functionality. Employed PostgreSQL as the database system for data storage, retrieval, and manipulation",
       tags: [
         {
-          name: "react",
+          name: "Vue.js",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "java",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "SpringBoot",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: coursechamp,
+      source_code_link: "https://github.com/Emilien-T/CourseChamp",
     },
     {
-      name: "name ",
+      name: "Hotel Booking ",
       description:
-        "desc",
+        "Developed a web app for a hotel booking system using RESTful web services created in Spring. Implemented business logic in-service classes, developing the RESTful API and server-side functionalities using Java. Utilized PostgreSQL as the database system for data storage, retrieval, and manipulation. Implemented unit backend testing with JUnit and Mockito framework for isolated functionality testing. Used Vue.js for frontend development to create interactive and dynamic user interfaces",
       tags: [
         {
-          name: "react",
+          name: "RESTapi",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "java",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "spring",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https/",
+      image: hotelbooking,
+      source_code_link: "https://github.com/sofiavelasquezsierra",
     },
     {
-      name: "name",
+      name: "Dive Safe",
       description:
-        " desc",
+        "Coordinated a multifaceted project using Java, Umple for domain modeling and state machine design, SQL with. Oracle for database management, and React for the user interface. Improved the controller layer by implementing Gherkin step definitions. Led a comprehensive testing strategy, including acceptance tests and functional testing of the user interface",
       tags: [
         {
-          name: "nextjs",
+          name: "java",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "git",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "sql",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: divesafe,
+      source_code_link: "https://github.com/sofiavelasquezsierra",
     },
   ];
   
